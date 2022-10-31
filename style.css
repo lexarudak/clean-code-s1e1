@@ -1,16 +1,16 @@
 /* Resetting default styles */
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li,
 h3 {
-  list-style:none;
+  list-style: none;
 }
 input,
 button {
-  outline:none;
+  outline: none;
 }
 
 /* Basic Style */
@@ -33,7 +33,7 @@ button {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .aaa { text-align: center;
 }
 }
@@ -118,7 +118,7 @@ button {
   font-size: 18px;
   width: 226px;
 }
-.task-list__text.input-text{
+.task-list__text.input-text {
   width: 226px;
 }
 .task-list__remove-img {
@@ -139,16 +139,16 @@ button {
 
 /* Edit Task */
 .task-list__text.input-text {
-  display:none;
+  display: none;
 }
 
 .task-list__item_edit
 .input-text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .task-list__item_edit
 .task-list__label {
-  display:none;
+  display: none;
 }
