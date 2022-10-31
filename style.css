@@ -23,7 +23,7 @@ button {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -34,32 +34,31 @@ button {
   width: 100%;
 }
 
-.aaa
-.more-inf {
+.header__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa { 
+  .header { 
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.task-text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-section__body {
   display: flex;
 }
 
@@ -113,7 +112,7 @@ button {
   margin: 0 0 20px;
 }
 
-.add-section__input-text {
+.add-section__input {
   width: 318px;
 }
 
@@ -139,7 +138,7 @@ button {
   width: 226px;
 }
 
-.task-list__text.input-text {
+.task-list__input {
   width: 226px;
 }
 
@@ -163,7 +162,7 @@ button {
 
 /* Edit Task */
 
-.task-list__text.input-text {
+.task-list__input {
   display: none;
 }
 
