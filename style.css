@@ -4,10 +4,12 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style:none;
 }
-input,button{
+input,
+button {
   outline:none;
 }
 
@@ -26,7 +28,8 @@ input,button{
 .header__img {
   width: 100%;
 }
-.aaa .more-inf {
+.aaa
+.more-inf {
   font-family: fantasy, cursive;
 }
 
